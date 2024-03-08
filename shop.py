@@ -42,6 +42,9 @@ def get_info(page_number):
 
     master_list.append(product_info)
 
+  df = pd.DataFrame(master_list)
+  df.to_csv("shop.csv", index=False)
+
 for page_number in range(1, 100): # Feel free to customize the range according to your needs; for instance, you can set it to range(1, 1000) or adjust it as per your preference
   get_info(page_number)
 print("File Created.")
