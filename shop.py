@@ -46,7 +46,10 @@ def get_info(page_number):
   df.to_csv("shop.csv", index=False)
 
   df = pd.DataFrame(master_list)
-  df.to_excel("shop.csv", index=False)
+  df.to_excel("shop.xlsx", index=False)
+
+  df = pd.DataFrame(master_list)
+  df.to_txt("shop.txt", index=False)
 
 for page_number in range(1, 100): # Feel free to customize the range according to your needs; for instance, you can set it to range(1, 1000) or adjust it as per your preference
   get_info(page_number)
