@@ -1,5 +1,6 @@
 # Scrape https://shop.parmigianoreggiano.com/:
 
+# Import Libraries
 import requests
 from bs4 import BeautifulSoup as bs
 import pandas as pd
