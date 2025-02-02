@@ -1,4 +1,4 @@
-# Scrape https://shop.parmigianoreggiano.com/:
+# Scrape https://shop.parmigianoreggiano.com
 
 # Import Libraries
 import requests
