@@ -24,7 +24,7 @@ def get_info(page_number):
     if p_name is not None:
       product_name = p_name.text
 
-
+ 
     p_per_kg = product.find("div", {"class": "info-wrapper"}).find("span", {"class": "prezzo-kg"})
     if p_per_kg is not None:
       price_per_kg = p_per_kg.text
