@@ -29,7 +29,6 @@ def get_info(page_number):
       price_per_kg = p_per_kg.text
 
     price = product.find("span", {"class": "price"}).text
-
     weight = product.find("span", {"class": "formato-peso"}).text
 
     product_info = {
