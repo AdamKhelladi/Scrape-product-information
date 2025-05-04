@@ -2,8 +2,9 @@
 
 # Import Libraries
 import requests
-from bs4 import BeautifulSoup as bs
 import pandas as pd
+
+from bs4 import BeautifulSoup as bs
 
 master_list = []
 
