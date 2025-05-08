@@ -9,7 +9,6 @@ from bs4 import BeautifulSoup as bs
 master_list = []
 
 def get_info(page_number):
-
   url = f"https://shop.parmigianoreggiano.com/it/shop.html?p={page_number}" 
 
   html = requests.get(url).text 
