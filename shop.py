@@ -19,7 +19,6 @@ def get_info(page_number):
   for product in products: 
     company_name = product.find("a", {"class": "nome-caseificio"}).text
 
-
     p_name = product.find("a", {"class": "product-item-link"})
     if p_name is not None:
       product_name = p_name.text
