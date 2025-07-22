@@ -53,3 +53,5 @@ for page_number in range(1, 100): # Feel free to customize the range according t
   get_info(page_number)
   
 print("File Created.")
+
+
